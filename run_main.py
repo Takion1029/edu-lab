@@ -677,7 +677,7 @@ def generate_agents_config(args) -> dict:
 
 def main():
     args = parse_args()
-    args_check(args)
+    args_check(args) 
     init(args)
     # Step-1 create agent conifg
     agents_configs = generate_agents_config(args)
